@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+
+.brandLogo {
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+} 
+
+li a{
+    text-decoration: none;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
