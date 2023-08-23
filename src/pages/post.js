@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Nav from '../components/nav'
+import Layout from '../components/Layout/Layout'
 
 const pageStyles = {
     color: "#232129",
@@ -10,11 +10,13 @@ const pageStyles = {
 const PostPage = () => {
     return (
         <>
-        <Nav />
+        <Layout>
+
         <main style={pageStyles}>
             <h1>Post</h1>
             <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
         </main>
+        </Layout>
         </>
     )
 }
